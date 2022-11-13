@@ -1,26 +1,24 @@
-import Head from 'next/head'
-import Spacer from '../components/Spacer'
-import Footer from '../components/Footer'
+import Head from "next/head";
+import Spacer from "../components/Spacer";
+import Footer from "../components/Footer";
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>Shalom Dawit Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-         Shalom
-          <a href="https://nextjs.org">
-             Dawit
-             </a>
+          Shalom
+          <a href="https://nextjs.org">Dawit</a>
         </h1>
 
+        <Spacer />
 
-<Spacer/>
-
-        <div className="grid">
+        {/* move to projects page */}
+        {/* <div className="grid">
           <a href="https://nextjs.org/docs" className="card">
             <h3>Documentation &rarr;</h3>
             <p>Find in-depth information about Next.js features and API.</p>
@@ -48,22 +46,10 @@ export default function Home() {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
-        </div>
+        </div>*/}
       </main>
 
-<Footer/>
-      {/* <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className="logo" />
-        </a>
-      </footer> */}
-
-
+      <Footer />
 
       <style jsx>{`
         .container {
@@ -211,5 +197,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }
