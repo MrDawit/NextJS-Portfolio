@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Spacer from "../components/Spacer";
+import Tilt from "../components/Tilt";
 import Footer from "../components/Footer";
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
           <a href="https://nextjs.org">Dawit</a>
         </h1>
 
-        <Spacer />
+        < Tilt/>
 
         {/* move to projects page */}
         {/* <div className="grid">
